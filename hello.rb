@@ -1,14 +1,17 @@
-#print "hello world!"
-#puts "hello world(puts)"
-#p "hello world(p)"
-
+p '-----------------------------------'
+puts '# behavior of print, puts, p ##########'
+print 'hello world!'
+puts 'hello world(puts)'
+p 'hello world(p)'
+p '-----------------------------------'
 =begin
 
 =end
 
-# 変数　：　データにつけるラベル　以下の＝は数学的な意味ではなく、右辺を左辺に代入することを意味する
-#msg = "hello world"
-#p msg
+puts '# 変数　：　データにつけるラベル　以下の＝は数学的な意味ではなく、右辺を左辺に代入することを意味する'
+msg = 'hello world'
+p msg
+p '-----------------------------------'
 
 # 定数：変更されないデータ　この値を変更されたら困る、など。mailアドレス
 # 最初の一文字目が大文字だと定数扱いだが、通例全て大文字にする
